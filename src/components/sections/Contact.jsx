@@ -8,7 +8,6 @@ export const Contact = () => {
     email: "",
     message: "",
   });
-  
 
   const handleSubmit = (e) => {
     e.preventDefault();
