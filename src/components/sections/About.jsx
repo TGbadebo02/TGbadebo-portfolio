@@ -9,7 +9,7 @@ export const About = () => {
     "Swift",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "Firebase"];
+  const backendSkills = ["Node.js", "MongoDB", "Firebase"];
 
   return (
     <section
@@ -69,12 +69,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.S. in Computer Science </strong> - Maynooth University.
+                  (2020-2025)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures, Web Development,
                 </li>
               </ul>
             </div>
@@ -84,22 +83,21 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Engineer at RCCG King’s Court Dublin (2024 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                     built a responsive website for a
+                     local church,
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Intern at Xavatar ltd (2023){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Developed C# scripts to control in-game object behavior using the Unity game engine effectively.
                   </p>
                 </div>
               </div>
