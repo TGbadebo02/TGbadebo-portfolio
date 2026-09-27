@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const projects = [
   {
-    title: "TitanTrack 2.0",
+    title: "TitanTrack",
     description:
       "A cross-platform fitness app for tracking workouts and building consistent training habits, with persistent user data and a mobile-first interface.",
     technologies: [
@@ -34,6 +34,20 @@ const projects = [
     ],
     href: "https://github.com/TGbadebo02/payment-processing-api",
   },
+  {
+    title: "Fraud Detection API",
+    description:
+      "A real-time payment fraud detection system with machine-learning transaction scoring, prediction logging, and a dashboard for monitoring risk.",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "scikit-learn",
+      "SQLite",
+      "Streamlit",
+      "Docker",
+    ],
+    href: "https://github.com/TGbadebo02/fraud-detection-api",
+  },
 ];
 
 export const Projects = () => {
@@ -48,7 +62,7 @@ export const Projects = () => {
             Featured Projects
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projects.map((project) => (
               <article
                 key={project.title}
