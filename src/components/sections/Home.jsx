@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
            <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Aspiring Software Engineer
+            Software Engineer
             With hands on experience in personal and group projects, 
             I'm enthusiastic about making scalable 
             and modern cutting-edge applications
