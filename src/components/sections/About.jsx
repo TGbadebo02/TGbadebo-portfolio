@@ -93,7 +93,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">Phogeniq (2026)</h4>
+                  <h4 className="font-semibold">Software Engineer at Phogeniq (2026)</h4>
                   <p>
                     developing an AI-powered student productivity platform to streamline academic planning, organisation, and learning.
                   </p>
